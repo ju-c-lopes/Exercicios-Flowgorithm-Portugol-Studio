@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Juliano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-23 08:25:18 "/>
+        <attribute name="created" value="SnVsaWFubztERVNLVE9QLVYxODI2Q1Y7MjAyMC0wNS0yMzsiMDg6MTE6NTMgIjsyOTQw"/>
+        <attribute name="edited" value="SnVsaWFubztERVNLVE9QLVYxODI2Q1Y7MjAyMC0wNS0yMzsiMDg6MjU6MTggIjsxOzMwNTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, multiplicador, resultado" type="Integer" array="False" size=""/>
+            <assign variable="multiplicador" expression="9"/>
+            <assign variable="numero" expression="1"/>
+            <while expression="numero &lt;= 10">
+                <assign variable="resultado" expression="numero * multiplicador"/>
+                <output expression="numero &amp; &quot; x &quot; &amp;multiplicador &amp;&quot; = &quot; &amp;resultado" newline="True"/>
+                <assign variable="numero" expression="numero + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
